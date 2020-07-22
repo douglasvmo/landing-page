@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^3.7.0",
+    "@typescript-eslint/parser": "^3.7.0",
+    "eslint": "^7.5.0",
+    "eslint-plugin-react": "^7.20.3",
+    "lerna": "^3.22.1",
+    "typescript": "^3.9.7"
+  },
+  "name": "e-commerce"
+}
