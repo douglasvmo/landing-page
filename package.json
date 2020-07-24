@@ -1,5 +1,6 @@
 {
   "private": true,
+  "name": "e-commerce",
   "workspaces": [
     "packages/*"
   ],
@@ -11,11 +12,23 @@
     "eslint-plugin-prettier": "^3.1.4",
     "eslint-plugin-react": "^7.20.3",
     "eslint-plugin-react-hooks": "^4.0.8",
+    "husky": "^4.2.5",
     "lerna": "^3.22.1",
+    "lint-staged": "^10.2.11",
     "typescript": "^3.9.7"
   },
   "scripts": {
-    "dev:next": "lerna run dev --scope=@e-commerce/client"
+    "dev:next": "lerna run dev --scope=@e-commerce/client",
+    "lint": "lerna run eslint --scope=@e-commerce/client"
   },
-  "name": "e-commerce"
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.ts": [
+      "eslint --fix --max-warnings=0"
+    ]
+  }
 }
