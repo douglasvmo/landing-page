@@ -6,6 +6,16 @@
     "esnext"
   ],
   "include": [
-    "next-env.d.ts",
+    "next-env.d.ts"
+  ],
+  "compilerOptions": {
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ]
+  },
+  "exclude": [
+    "node_modules"
   ]
 }
