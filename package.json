@@ -5,21 +5,27 @@
     "packages/*"
   ],
   "devDependencies": {
+    "@babel/preset-typescript": "^7.10.4",
+    "@testing-library/jest-dom": "^5.11.1",
+    "@types/jest": "^26.0.7",
     "@typescript-eslint/eslint-plugin": "^3.7.0",
     "@typescript-eslint/parser": "^3.7.0",
+    "babel": "^6.23.0",
+    "babel-preset-next": "^1.4.0",
     "eslint": "^7.5.0",
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-prettier": "^3.1.4",
     "eslint-plugin-react": "^7.20.3",
     "eslint-plugin-react-hooks": "^4.0.8",
     "husky": "^4.2.5",
+    "jest": "^26.1.0",
     "lerna": "^3.22.1",
     "lint-staged": "^10.2.11",
     "typescript": "^3.9.7"
   },
   "scripts": {
     "dev:next": "lerna run dev --scope=@e-commerce/client",
-    "lint": "lerna run eslint --scope=@e-commerce/client"
+    "test": "jest"
   },
   "husky": {
     "hooks": {
