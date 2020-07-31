@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "e-commerce",
+  "name": "landing-page",
   "workspaces": [
     "packages/*"
   ],
@@ -26,7 +26,7 @@
     "typescript": "^3.9.7"
   },
   "scripts": {
-    "dev:next": "lerna run dev --scope=@e-commerce/client",
+    "dev:next": "lerna run dev --scope=@landing-page/client",
     "test": "jest"
   },
   "husky": {
