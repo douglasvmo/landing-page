@@ -1,0 +1,9 @@
+{
+  "name": "@landing-page/web-service",
+  "scripts": {
+    "build": "docker-compose up"
+  },
+  "version": "1.0.0",
+  "main": "docker-compose.yaml",
+  "license": "MIT"
+}

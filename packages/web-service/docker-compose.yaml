@@ -12,7 +12,7 @@ services:
     links:
       - postgres:postgres
     volumes:
-      - ./app:/srv/app
+      - ../backend:/srv/app
     ports:
       - '1337:1337'
 

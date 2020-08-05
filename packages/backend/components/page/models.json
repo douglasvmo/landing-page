@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_page_models",
+  "info": {
+    "name": "Models",
+    "icon": "box"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "module": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.module",
+      "required": true,
+      "min": 2,
+      "max": 4
+    }
+  }
+}

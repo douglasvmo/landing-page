@@ -27,6 +27,10 @@
   },
   "scripts": {
     "dev:next": "lerna run dev --scope=@landing-page/client",
+<<<<<<< HEAD
+=======
+    "build:api": "lerna run build --scope=@landing-page/web-service",
+>>>>>>> 7a821804f43b920525ebcd9722d97163ce5d6373
     "test": "jest"
   },
   "husky": {

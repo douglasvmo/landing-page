@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_page_concepts",
+  "info": {
+    "name": "Concept",
+    "icon": "bookmark"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
