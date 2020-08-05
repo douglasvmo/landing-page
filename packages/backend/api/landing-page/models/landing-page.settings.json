@@ -27,6 +27,11 @@
       "type": "component",
       "repeatable": false,
       "component": "page.section-about-project"
+    },
+    "SectionTech": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-tech"
     }
   }
 }
